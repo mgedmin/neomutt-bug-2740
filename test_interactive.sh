@@ -9,4 +9,4 @@ printf "From sender@localhost  Fri Nov 20 11:12:39 2020\nSubject: test message 1
 printf "From sender@localhost  Fri Nov 20 11:12:39 2020\nSubject: test message 2\n\nbody\n\n" >> inbox3
 neomutt=${1:-neomutt}
 $neomutt -v | head -n 1
-$neomutt -F muttrc -e 'push <quit>' -Z
+$neomutt -F muttrc -y
