@@ -6,3 +6,9 @@ mail).
 
 You can test against a specific mutt/neomutt binary with
 `./test.sh /usr/bin/mutt`.
+
+There's also an interactive version of the script.  If you run
+`./test_interactive.sh`, this is what you should see: **N** flags next to two
+out of three mailboxes.
+
+![](expected.png)
